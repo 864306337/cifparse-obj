@@ -1,0 +1,22 @@
+ {% set version = "7.105" %}
+
+package:
+  name: cifparse-obj
+  version: {{ version }}
+
+source:
+  path: ../../
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - gcc
+  run:
+    - libgcc
+
+about:
+  home: https://sw-tools.rcsb.org/apps/CIFPARSE-OBJ/index.html
+  license: Custom
+  summary: "A Class Library of Access Tools for mmCIF in C++."

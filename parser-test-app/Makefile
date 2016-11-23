@@ -40,7 +40,8 @@ ALL_DEP_LIBS = $(CIF_FILE_LIB) $(CIFPARSE_LIB) $(TABLES_LIB) \
   $(COMMON_LIB) $(REGEX_LIB)
 
 # Base file names. Must have ".ext" at the end of the file.
-BASE_MAIN_FILES = FOtest1.ext \
+BASE_MAIN_FILES = Assemblies.ext \
+                  FOtest1.ext \
                   FOtest2.ext \
                   FOtest3.ext \
                   FOtest4.ext \
